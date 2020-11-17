@@ -1,0 +1,29 @@
+{
+    "name": "user/ml-framework",
+    "description": "This is framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nurul Amin Limon",
+            "email": "limonfpi408@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pimple/pimple": "^3.3@dev",
+        "jenssegers/blade": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "config",
+            "system",
+            "controllers"
+        ],
+        "files": [
+            "config/config.php",
+            "config/helper.php",
+            "routes/web.php"
+        ]
+    }
+}

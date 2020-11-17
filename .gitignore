@@ -1,0 +1,40 @@
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# Project custom file
+
+/config/config.php
+/config/Database.php
+
+
+
+.brackets.json
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.pdf
+*.webp
+
+
+
+
+
+
+
+
